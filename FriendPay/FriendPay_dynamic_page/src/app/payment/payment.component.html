@@ -1,0 +1,40 @@
+<div class="container-fluid" id="friendPayPageContainer" style="position: fixed; height: 100%;">
+    <div class="row bg-primary" style="height: 10%;">
+        <div class="col-sm text-center align-self-center">
+            <span class="text-white">FriendPay</span>
+        </div>
+    </div>
+
+    <div class="row" style="height: 10%;">
+        <div class="col-sm text-center align-self-center">
+            <app-countdown></app-countdown>
+        </div>
+    </div>
+
+    <div class="row justify-content-sm-center">
+        <div class="col-sm-6 border border-dark rounded container" style="font-size: 12px;">
+            <div class="row">
+                <div class="col-sm p-2">
+                    <div class="p-2" *ngFor="let x of paymentInfoView">
+                        {{x}}
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- <button class="test" onclick="testheadscript()">test head script</button> -->
+                <div class="col-sm text-center p-2">
+                    <img alt="Visa Checkout" class="v-button" role="button" src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm text-center p-2">
+                    <button class="btn btn-danger text-white" style="width: 214px;" (click)="onRejectRequest()">
+                        Reject
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

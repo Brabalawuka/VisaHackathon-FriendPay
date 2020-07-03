@@ -1,0 +1,29 @@
+{
+  "name": "visa-friendpay",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon -r esm app.js"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.0",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "esm": "^3.2.25",
+    "express": "^4.16.4",
+    "http-errors": "~1.6.3",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.19",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11",
+    "request": "^2.88.2",
+    "requests": "^0.3.0",
+    "twilio": "^3.46.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

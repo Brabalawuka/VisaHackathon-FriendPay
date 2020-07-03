@@ -1,0 +1,43 @@
+.cart-section {
+  margin-top: 2em;
+}
+
+.cart-table th {
+  border-top: none;
+}
+
+.cart-table td {
+  border: none;
+  padding: 1rem;
+  vertical-align: middle;
+}
+
+.cart-table tr:first-child td {
+  padding-top: 2rem;
+}
+
+.cart-table tr:last-child td {
+  border-bottom: 2px solid #dee2e6;
+  padding-bottom: 2rem;
+}
+
+.cart-table td img {
+  max-height: 100px;
+  border-radius: 5px;
+}
+
+.item-title {
+  display: inline-block;
+  margin-left: 1rem;
+  vertical-align: middle;
+  padding-top: 1rem;
+}
+
+#paymentSection {
+  text-align: end;
+  margin-bottom: 2rem;
+}
+
+#paymentSection h4 {
+  display: inline;
+}

@@ -1,0 +1,31 @@
+{
+    "development": {
+        "config_id": "development",
+        "node_port": 2333,
+        "dynamic_page_port" :4200,
+        "base_url": "http://localhost/",
+        "exeternal_base_url": "http://35.247.130.171",
+        "api_key": "SendGridApiKey",
+        "sender_address" : "visafriendpay@gmail.com",
+        "sender_name" : "VisaFPay",
+        "template_id": "sendGridTemplateID",
+        "twilio_account_sid": "--",
+        "twilio_auth_token": "--"
+    },
+  
+    "production": {
+        
+        "config_id": "production",
+        "node_port": 2333,
+        "dynamic_page_port" :4200,
+        "base_url": "http://localhost/",
+        "exeternal_base_url": "http://35.247.130.171",
+        "api_key": "SendGridApiKey",
+        "sender_address" : "visafriendpay@gmail.com",
+        "sender_name" : "VisaFPay",
+        "template_id": "sendGridTemplateID",
+        "twilio_account_sid": "--",
+        "twilio_auth_token": "--"
+        
+    }
+}

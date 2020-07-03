@@ -1,0 +1,14 @@
+.status-bar {
+  display: inline-block;
+}
+
+.status-text {
+  display: inline-block;
+  width: 120px;
+  vertical-align: top;
+}
+
+#statusSection {
+  text-align: center;
+  margin-top: 2em;
+}

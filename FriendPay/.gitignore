@@ -1,0 +1,28 @@
+# demo-site gitignore config
+
+# dependencies
+/FriendPay_dynamic_page/node_modules
+/FriendPay_dynamic_page/dist
+/demo-site/node_modules
+/demo-site/.pnp
+/demo-site.pnp.js
+
+# testing
+/demo-site/coverage
+
+# production
+/demo-site/build
+
+# misc
+demo-site/.DS_Store
+demo-site/.env.local
+demo-site/.env.development.local
+demo-site/.env.test.local
+demo-site/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Project exclude paths
+/node_modules/
+.app-extra.js
